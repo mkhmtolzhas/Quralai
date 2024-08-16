@@ -2,7 +2,9 @@ import React from 'react'
 
 const WhyMe = () => {
   return (
-    <div>WhyMe</div>
+    <section>
+        
+    </section>
   )
 }
 
