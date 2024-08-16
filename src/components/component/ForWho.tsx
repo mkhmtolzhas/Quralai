@@ -20,7 +20,7 @@ const ForWho = () => {
                 <p className='text-xl'>ЭКО-ға дайындалып жүрген жұптарға</p>
             </div>
             <div className="w-full min-h-1 border-2 border-[#8ED7E0] p-4 rounded-lg text-center">
-                <p className='text-xl'>Басқа да гинекологиялық проблемаларына қатысты сұрақтармен тәжірибесі мол, проффесионал дәрігер іздеп жүрген әйелдерге</p>
+                <p className='text-xl'>Басқа да гинекологиялық проблемаларына қатысты сұрақтармен тәжірибесі мол, профессионал дәрігер іздеп жүрген әйелдерге</p>
             </div>
             <div className="w-full min-h-1 border-2 border-[#8ED7E0] p-4 rounded-lg text-center">
                 <p className='text-xl'>Балалар гинекологын іздеген адамдарға</p>
