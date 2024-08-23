@@ -6,7 +6,7 @@ const Consultation = () => {
         <div className="w-full h-full flex flex-col items-center justify-center gap-4">
             <div className="text-center">
                 <h1 className='text-3xl font-vag-rounded-light text-[#4169E1]'>КОНСУЛЬТАЦИЯҒА НЕ КІРЕДІ?</h1>
-            </div>\
+            </div>
             <div className="">
                 <div className="flex flex-col gap-4 font-vag-rounded-medium text-xl bg-[#4169E1] rounded-t-lg p-4">
                     <p><span className='text-[#FFF]'>–</span> Әйелі мен күйеуін бірге қабылдау</p>

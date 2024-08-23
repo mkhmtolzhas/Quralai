@@ -12,6 +12,8 @@
   font-family: "VAG Rounded Medium";
   src: url('../../public/fonts/VAG\ Rounded\ Next\ Medium.ttf') format('truetype');
 }
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,4 +29,12 @@
 
 .font-vag-rounded-medium {
   font-family: "VAG Rounded Medium";
+}
+
+.slick-arrow::before {
+  color: #000;
+}
+
+.slick-arrow::after {
+  color: #000;
 }

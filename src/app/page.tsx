@@ -1,7 +1,7 @@
 import Consultation from "@/components/component/Consultation";
 import ForWho from "@/components/component/ForWho";
 import Landing from "@/components/component/Landing";
-import Image from "next/image";
+import Reviews from "@/components/component/Reviews";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <Landing />
       <ForWho />
       <Consultation />
+      <Reviews />
     </main>
   );
 }
