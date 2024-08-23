@@ -4,17 +4,17 @@ import Slider from 'react-slick';
 
 const ImageReviews = () => {
     const images = [
-        './img/review1.jpg',
-        './img/review2.jpg',
-        './img/review3.jpg',
-        './img/review4.jpg',
-        './img/review5.jpg',
-        './img/review6.jpg',
-        './img/review7.jpg',
-        './img/review8.jpg',
-        './img/review9.jpg',
-        './img/review10.jpg',
-        './img/review11.jpg',
+        'https://spotify-nf.s3.eu-north-1.amazonaws.com/review1.jpg',
+        'https://spotify-nf.s3.eu-north-1.amazonaws.com/review2.jpg',
+        'https://spotify-nf.s3.eu-north-1.amazonaws.com/review3.jpg',
+        'https://spotify-nf.s3.eu-north-1.amazonaws.com/review4.jpg',
+        'https://spotify-nf.s3.eu-north-1.amazonaws.com/review5.jpg',
+        'https://spotify-nf.s3.eu-north-1.amazonaws.com/review6.jpg',
+        'https://spotify-nf.s3.eu-north-1.amazonaws.com/review7.jpg',
+        'https://spotify-nf.s3.eu-north-1.amazonaws.com/review8.jpg',
+        'https://spotify-nf.s3.eu-north-1.amazonaws.com/review9.jpg',
+        'https://spotify-nf.s3.eu-north-1.amazonaws.com/review10.jpg',
+        'https://spotify-nf.s3.eu-north-1.amazonaws.com/review11.jpg',
     ]
 
     const settings = {
@@ -46,36 +46,6 @@ const ImageReviews = () => {
                         </div>
                     </div>
                 ))}
-                {/* <div className='w-full h-[40vh]'>
-                    <div className="w-full h-[40vh] flex items-center justify-center">
-                        <div className="w-[80%] h-full bg-black"></div>
-                    </div>
-                </div>
-                <div className='w-full h-[40vh]'>
-                    <div className="w-full h-[40vh] flex items-center justify-center">
-                        <div className="w-[80%] h-full bg-black"></div>
-                    </div>
-                </div>
-                <div className='w-full h-[40vh]'>
-                    <div className="w-full h-[40vh] flex items-center justify-center">
-                        <div className="w-[80%] h-full bg-black"></div>
-                    </div>
-                </div>
-                <div className='w-full h-[40vh]'>
-                    <div className="w-full h-[40vh] flex items-center justify-center">
-                        <div className="w-[80%] h-full bg-black"></div>
-                    </div>
-                </div>
-                <div className='w-full h-[40vh]'>
-                    <div className="w-full h-[40vh] flex items-center justify-center">
-                        <div className="w-[80%] h-full bg-black"></div>
-                    </div>
-                </div>
-                <div className='w-full h-[40vh]'>
-                    <div className="w-full h-[40vh] flex items-center justify-center">
-                        <div className="w-[80%] h-full bg-black"></div>
-                    </div>
-                </div> */}
             </Slider>
         </div>
     )
