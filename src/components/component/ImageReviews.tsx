@@ -22,17 +22,13 @@ const ImageReviews = () => {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
         speed: 1000,
-        // autoplaySpeed: 1000,
-        // cssEase: "linear",
         pauseOnHover: false,
         arrows: true,
-        rtl: true,
         swipeToSlide: true,
         afterChange: function(index: any) {
             console.log(
-              `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
+              `Slider Changed to: ${index + 1}`
             );
           }
       };
